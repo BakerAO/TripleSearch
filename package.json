@@ -4,7 +4,7 @@
   "description": "Search three engines at once",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --host '0.0.0.0'"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,15 @@
   "homepage": "https://github.com/BakerAO/TripleSearch#readme",
   "dependencies": {
     "axios": "^0.17.1",
+    "jquery": "^3.3.1",
     "lodash": "^4.17.5",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
+    "redux-form": "^7.2.3",
     "redux-promise": "^0.5.3"
   },
   "devDependencies": {
