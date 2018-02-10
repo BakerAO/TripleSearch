@@ -6,7 +6,7 @@ import { createStore, applyMiddleware } from 'redux';
 import promise from 'redux-promise';
 
 import reducers from './reducers';
-import TripleSearch from './components/triple_search';
+import TripleSearchApp from './components/triple_search';
 
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
@@ -16,7 +16,7 @@ ReactDOM.render(
         <BrowserRouter>
             <div>
                 <Switch>
-                    <Route path="/" component={TripleSearch} />
+                    <Route path="/" component={TripleSearchApp} />
                 </Switch>
             </div>
         </BrowserRouter>
