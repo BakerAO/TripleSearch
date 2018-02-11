@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
 
+import GoogleReducer from './reducer_google';
+
 const rootReducer = combineReducers({
-    state: (state = {}) => state
+    google: GoogleReducer
 });
 
 export default rootReducer;
