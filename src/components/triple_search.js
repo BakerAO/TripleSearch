@@ -19,22 +19,14 @@ class TripleSearchApp extends Component{
                 <div className="row">
                     <div className="col-md-3"></div>
                     <div className="col-md-6">
-                        <SearchBar 
-
-                        />
+                        <SearchBar />
                     </div>
                     <div className="col-md-3"></div>
                 </div>
                 <div className="row">
-                    <GoogleSearch 
-
-                    />
-                    <DuckDuckGoSearch 
-                    
-                    />
-                    <BingSearch 
-                    
-                    />
+                    <GoogleSearch />
+                    <DuckDuckGoSearch />
+                    <BingSearch />
                 </div>
             </div>
         );

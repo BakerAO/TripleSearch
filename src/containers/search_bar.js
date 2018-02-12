@@ -14,13 +14,13 @@ class SearchBar extends Component{
 
     onInputChange(event){
         this.setState({ term: event.target.value });
-        console.log(this);
     }
 
     onFormSubmit(event){
         event.preventDefault();
         this.props.fetchGoogle(this.state.term);
         this.setState({ term: '' });
+        console.log(this);
     }
 
     render(){
